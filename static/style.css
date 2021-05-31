@@ -1,6 +1,6 @@
 body {
-    background-color: #202;
-    color: #cfc;
+    background-color: #0;
+    color: #f;
     font-size: medium;
 }
 
@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #000;
+    background-color: #E7E9EB;
     position: fixed;
     top: 0;
     width: 100%;
@@ -25,14 +25,14 @@ body {
 
 .navbara {
     display: block;
-    color: #cfc;
+    color: #E7E9EB;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .navbara:hover:not(.active) {
-    background-color: #222;
+    background-color: #CCCCCC;
 }
 
 .active {
@@ -62,7 +62,7 @@ body {
 #footer {
     text-decoration: none !important;
     border-bottom: 5px solid #faf;
-    color: #b4b;
+    color: #f;
     text-align: center
 }
 
@@ -71,19 +71,19 @@ footer {
 }
 
 a:link {
-    color: #cfc;
+    color: blue;
 }
 
 a:visited {
-    color: #ccc;
+    color: purple;
 }
 
 a:hover {
-    color: #faf;
+    color: darkblue;
 }
 
 a:active {
-    color: #ccc;
+    color: red;
 }
 
 #writeuptable td {
