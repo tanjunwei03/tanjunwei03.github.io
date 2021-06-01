@@ -1,6 +1,6 @@
 <footer>
     <div id="footer">
-	    <p>Thanks to <a href="https://ariana1729.github.io">Ariana</a> for letting me copy their site</p>
+	    <p>Thanks to <a href="ariana1729.github.io">Ariana</a> for letting me copy their site</p>
         <p>© All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> and <a href="https://www.mathjax.org/">MathJax</a></p>
     </div>
 </footer>
