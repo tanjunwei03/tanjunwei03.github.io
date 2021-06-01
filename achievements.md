@@ -11,9 +11,9 @@ Here are some of my achievements
 ## Physics
 
 - International Young Physicists Tournament Champion Team, 2019 (Youngest Singapore National Team Member)
-- SIngapore Junior Physics Olympiad Gold Medal, 2018
-- SIngapore Junior Physics Olympiad Gold Medal, 2019
-- SIngapore Junior Physics Olympiad Gold Medal, 2020
+- Singapore Junior Physics Olympiad Gold Medal, 2018
+- Singapore Junior Physics Olympiad Gold Medal, 2019
+- Singapore Junior Physics Olympiad Gold Medal, 2020
 - European Physics Olympiad National Team, 2021
 - Singapore Young Physicists Tournament Silver, 2019
 - Singapore Young Physicists Tournament SIlver, 2020

@@ -21,7 +21,7 @@ These are some the books that I'm currently reading. Of course, I've only read a
  - Jakob Schwichtenberg - Physics from Symmetry
  - Riley & Hobson - Mathematical Methods for Physics and Engineers
 
-##Mathematics
+## Mathematics
 
  - Rudin - Principles of Mathematical Analysis
  - Jacobson - Basic Algebra I
