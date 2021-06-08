@@ -1,0 +1,32 @@
+---
+layout: blog
+title: Su-Schrieffer-Heeger (SSH) Model
+output: 
+    html_document:
+        extra_dependencies: ["amsmath","physics"]
+---
+I've recently been reading "A Short Course on Topological Insulators" and I found the inital steps (pages 1-4) hard to follow as it made lots of appeal to direct product spaces, so I shall attempt to present a second interpretation of the calculations there. I realise that this can probably be interpreted in the language of direct product spaces, but hopefully this will still be of interest to some.
+
+In general, we are given a periodic system. We have a lattice with a large number \\(n\\) of unit cells, and within each unit cell we have a number \\(p\\) of sites. An electron can be on any site, in any unit cell. The hamiltonian (in position basis) is some \\(n\times p\\) dimensional matrix. The elements in the hamiltonian in the position basis are called the hoppings. This can be seen by writing it as an outer product. For example, let the \\((2,1)\\)th element of the hamiltonian matrix be \\(x\\). Then we have \\(H=\ket{2}\bra{1}\\). Now suppose the state at some point is \\(\ket{\psi}=\ket{1}\\). Then the Schr&ouml;dinger equation is
+\\[i\hbar\left[\frac{d}{dt}\ket{\psi}\right]_{t=0}=\ket{2}\braket{1}{1}=\ket{2}\\]
+
+Thus, after a small time \\(dt\\), the wavefunction will be more of \\(\ket{2}\\) and less of \\(\ket{1}\\)
+
+Now, the hamiltonian must clearly be translation invariant. This means that the hamiltonian \\(H\\) commutes with the translation operator \\(T\\). In the position basis, the translation operator \\(T\\) is easily given by
+\\[T = \left(0, 0, ..., I; I, 0, ..., 0; 0, I, ..., 0; ...\right)\\]
+
+Where \\(I\\) is the \\(p\\) dimensional identity matrix. It is well known that a translation operator has as its eigenvectors the plane wave states. However, in this case, the operator is degenerate. For each wavenumber \\(k\\), there is not a single plane wave state, but \\(p\\) of them. Hence, they span a \\(p\\) dimensional eigenspace. A basis for this eigenspace would be the plane wave states \\(\ket{k,a_i}\\), those that are nonzero at only one site.
+
+Since the translation operator \\(T\\) commutes with the hamiltonian, we know that the the hamiltonian operator keeps an eigenvector of \\(T\\) within the same eigenspace. Thus, for every eigenspace (labelled by its wavenumber \\(k\\)), there are \\(p\\) associated eigenstates of the hamiltonian. The goal of the calculations is then to find all the eigenvalues (which we call the energy) for a single value of \\(k\\). The matrix elements can either be found by taking the inner product (note that this is my interpretation of the RHS of equation 1.10 in the paper mentioned in the first line), or the matrix elements can be found directly: Denote the basis for a single eigenspace of \\(T\\) by \\(\ket{k,a_i}, i\in\{1, 2...p\}\\). Let \\(H\ket{k,a_i}=\sum_j H_{ij}\ket{k,a_j}\\). Expand an eigenstate \\(\ket{k,E}=\sum_n b_i\ket{k,a_i}\\). Then we have
+\\[E\ket{k,E}=\sum_i Eb_i\ket{k,a_i}=\sum_i b_i H\ket{k,a_i}=\sum_i\sum_j b_i H_{ij}\ket{k,a_j}\\]
+Upon comparing coefficents, we get the result
+\\[Eb_i=\sum_j H_{ji}b_j\\]
+When we write the eigenstate in column vector form \\(b_1, b_2...\\), it becomes clear that we are just finding the eigenvalues of the \\(p\\) dimensional matrix with elements \\(H_{ji}\\). Thus, we can perform the following procedure to get the matrix elements:
+
+1. Find the vector \\(H\vec{k,a_i}\\)
+2. Find the components of said vector in the aforementioned basis
+3. Fill in the ith row of a matrix with those components (note that it does not matter whether you fill up the rows or the columns, as the eigenvalues of a matrix are the same as that of its transpose)
+4. Repeat step 1 for i going from 1 to \\(p\\)
+5. Find the eigenvalues for the matrix
+
+Here, we see that for every value of \\(k\\), we have \\(p\\) eigenvalues - that is why it is known as a \\(p\\) band model.
