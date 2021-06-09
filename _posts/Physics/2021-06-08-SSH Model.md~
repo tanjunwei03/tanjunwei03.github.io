@@ -23,7 +23,7 @@ Upon comparing coefficents, we get the result
 \\[Eb_i=\sum_j H_{ji}b_j\\]
 When we write the eigenstate in column vector form \\(b_1, b_2...\\), it becomes clear that we are just finding the eigenvalues of the \\(p\\) dimensional matrix with elements \\(H_{ji}\\). Thus, we can perform the following procedure to get the matrix elements:
 
-1. Find the vector \\(H\vec{k,a_i}\\)
+1. Find the vector \\(H\ket{k,a_i}\\)
 2. Find the components of said vector in the aforementioned basis
 3. Fill in the ith row of a matrix with those components (note that it does not matter whether you fill up the rows or the columns, as the eigenvalues of a matrix are the same as that of its transpose)
 4. Repeat step 1 for i going from 1 to \\(p\\)
