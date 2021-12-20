@@ -24,5 +24,7 @@ These are some the books that I'm currently reading. Of course, I've only read a
 ## Mathematics
 
  - Rudin - Principles of Mathematical Analysis
+ - Rudin - Real and Complex Analysis
  - Jacobson - Basic Algebra I
  - Munkres - Topology
+
