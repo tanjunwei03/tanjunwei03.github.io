@@ -31,6 +31,8 @@ Here are some of my achievements
 ## Others
 
 - Australian Informatics Olympiad Silver, 2019
+- International Olympiad for Astronomy and Astrophysics Bronze, 2021
 - Singapore Astronomy Olympiad Bronze, 2019
+- Singapore Astronomy Olympiad Top Silver, 2021
 - Singapore Mathematical Olympiad Bronze, 2017
 - Singapore Mathematical Olympiad Bronze, 2018
