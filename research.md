@@ -18,4 +18,6 @@ Progress: It shall stay on my website and my website only...
 
 The rising rate of singlehood presents one of the most grave threats to mankind. However, current research into this dire circumstance focuses on national or international scale socioeconomic driving factors, rather than on small scale influencing factors more relevant to the general population. In addition, there have been little such studies conducted in a local (Singapore) context. In this work, we gather a data set describing one’s marital status and height, before exploiting celebrated statistical methods such as the t-test and conducting detailed analysis on said data. We come to statistically significant results for both males and females that people in a romantic relationship are generally taller than their compatriots, with the result being much less significant in females.
 
+This work is licensed under a [Creative Commons Attribution-NonCommercial 3.0 Singapore License](https://creativecommons.org/licenses/by-nc/3.0/sg/legalcode)
+
 [PDF](./static/research/Why am I single am I too short.pdf)
