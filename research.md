@@ -6,6 +6,12 @@ title: Jun Wei's Site
 # Research
 {: style="font-size: 200%; text-align: center;"}
 
+# Links
+{: style="font-size: 150%"}
+ORCID: <https://orcid.org/0000-0003-0505-0157> <br>
+ArXiv: <https://arxiv.org/search/cond-mat?searchtype=author&query=Tan%2C+J+W> <br>
+Researchgate: <https://www.researchgate.net/profile/Jun-Tan-63>
+
 # Designing Non-Hermitian Real Spectra Through Electrostatics
 {: style="font-size: 150%"}
 Progress: Manuscript submitted to <em>Science Bulletin</em>
