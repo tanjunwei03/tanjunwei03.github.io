@@ -20,6 +20,7 @@ These are some the books that I'm currently reading. Of course, I've only read a
  - Bernard Schutz - A First Course in General Relativity
  - Jakob Schwichtenberg - Physics from Symmetry
  - Riley & Hobson - Mathematical Methods for Physics and Engineers
+ - Nielsen & Chuang - Quantum Computation and Quantum Information
 
 ## Mathematics
 
@@ -27,4 +28,4 @@ These are some the books that I'm currently reading. Of course, I've only read a
  - Rudin - Real and Complex Analysis
  - Jacobson - Basic Algebra I
  - Munkres - Topology
-
+ - Rotman - An Introduction to Algebraic Topology
