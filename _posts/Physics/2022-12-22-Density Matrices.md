@@ -35,4 +35,4 @@ Where \\(\ket{v_i}\\) is some orthonomal basis. The right hand side can be rearr
 \\[\sum_i \braket{\psi}{v_i}\bra{v_i}M_m^\dagger M_m\ket{\psi}=\bra{\psi}\left[\sum_i\ket{v_i}\bra{v_i}\right]M_m^\dagger M_m\ket{\psi}=\bra{\psi}M_m^\dagger M_m\ket{\psi}\\]
 Thus proving the theorem. Note that the orthonomal basis \\(\ket{v_i}\\) can always be computed using the gram-schmidt procedure, thus it always exists.
 
-Hence, the probability that a measurement has result \\(m\\) is given by \\(\sum_i p_i\bra{\psi_i}M_m^\dagger M_m\ket{\psi_i}=Tr\left(\sum_i p_i M_m^\dagger M_m\ket{\psi_i}\bra{\psi_i}\right)=Tr\left(M_m^\dagger M_m\rho\right).
+Hence, the probability that a measurement has result \\(m\\) is given by \\(\sum_i p_i\bra{\psi_i}M_m^\dagger M_m\ket{\psi_i}=Tr\left(\sum_i p_i M_m^\dagger M_m\ket{\psi_i}\bra{\psi_i}\right)=Tr\left(M_m^\dagger M_m\rho\right)\\).
