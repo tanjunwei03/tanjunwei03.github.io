@@ -22,4 +22,17 @@ In particular, if we have a state \\(\ket{\psi_j}\\) in the ensemble, it is not 
 
 The last (inequality) would only be true if the states are orthogonal.
 
-Under measurement with measurement operators \\(M_m\\), each state \\(\ket{\psi}\\) becomes \\(M_m\ket{\psi}\\). Thus, if we know that we performed a measurement and obtained a result \\(m\\), the resulting density matrix would be \\(\rho'=\sum_i p_i M_m\ket{\psi_i}\bra{\psi_i}M_m^\dagger\\). 
+Under measurement with measurement operators \\(M_m\\), each state \\(\ket{\psi}\\) becomes \\(M_m\ket{\psi}\\). Thus, if we know that we performed a measurement and obtained a result \\(m\\), the resulting density matrix would be \\(\rho'=\sum_i p_i \frac{M_m\ket{\psi_i}\bra{\psi_i}M_m^\dagger}{\bra{\psi_i}M_m^\dagger M_m\ket{\psi_i}}\\) (with appropriate normalisation). If we do not know what measurement result we obtained, then we must sum over all possible measurement results too. The density matrix then takes the rather neat form
+\\[\rho'=\sum_{i,m}M_m\ket{\psi_i}\bra{\psi_i}M_m^\dagger\\]
+
+Given a density matrix, a natural question to ask is if we can determine the probability of a certain measurement result \\(m\\). To do so, we need to prove the following theorem
+
+\\[\bra{\psi}M_m^\dagger M_m\ket{\psi}=Tr(M_m^\dagger M_m\ket{\psi}\bra{\psi})\\]
+
+We evaluate the right hand side:
+\\[Tr(M_m^\dagger M_m\ket{\psi}\bra{\psi})=\sum_i \bra{v_i}M_m^\dagger M_m\ket{\psi}\braket{\psi}{v_i}\\]
+Where \\(\ket{v_i}\\) is some orthonomal basis. The right hand side can be rearranged to form
+\\[\sum_i \braket{\psi}{v_i}\bra{v_i}M_m^\dagger M_m\ket{\psi}=\bra{\psi}\left[\sum_i\ket{v_i}\bra{v_i}\right]M_m^\dagger M_m\ket{\psi}=\bra{\psi}M_m^\dagger M_m\ket{\psi}\\]
+Thus proving the theorem. Note that the orthonomal basis \\(\ket{v_i}\\) can always be computed using the gram-schmidt procedure, thus it always exists.
+
+Hence, the probability that a measurement has result \\(m\\) is given by \\(\sum_i p_i\bra{\psi_i}M_m^\dagger M_m\ket{\psi_i}=Tr\left(\sum_i p_i M_m^\dagger M_m\ket{\psi_i}\bra{\psi_i}\right)=Tr\left(M_m^\dagger M_m\rho\right).
