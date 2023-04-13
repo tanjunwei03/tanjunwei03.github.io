@@ -24,7 +24,8 @@ Here are some of my achievements
 - Singapore Young Physicists Tournament Silver, 2019
 - Singapore Young Physicists Tournament Silver, 2020
 - Singapore Young Physicists Tournament Champions, 2021
-- Singapore Physics League Champions, 2 Standard Deviations above 2nd place
+- Singapore Physics League 2021 Champions, 2 Standard Deviations above 2nd place
+- Singapore Physics League 2022 Champions
 - Online Physics Olympiad Gold, 2nd place
 - Online Physics Brawl Top in Category A
 
@@ -37,3 +38,10 @@ Here are some of my achievements
 - Singapore Astronomy Olympiad Top Silver, 2021
 - Singapore Mathematical Olympiad Bronze, 2017
 - Singapore Mathematical Olympiad Bronze, 2018
+
+
+## Professional Activities and Associations
+
+- Institute of Physics Singapore 2022 Meeting (presenter)
+- Goethe Institute Singapore
+- Singapore Physics League 2023 Organising Team
