@@ -1,7 +1,6 @@
 ---
 layout: blog
 title: Gaussian Elimination
-Algebra
 ---
 Introduction: It was immensely frustrating to have to retake linear algebra multiple times in my life. It was even more frustrating to have forgotten computation rules for gaussian elimination, and how one uses them to find properties of the linear transformation such as rank, null space or solution space. The issue is as follows:
 
