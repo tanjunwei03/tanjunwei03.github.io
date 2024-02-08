@@ -9,5 +9,5 @@ In any case, I provide here an explanation of the monotone class theorem. It was
 
 It seems that I was unable to complete the section on applications, but that is hopefully alright. I will finish it if I require it to deepen my understanding.
 
-[PDF](./static/teaching/Monotone Classes.pdf)
+[PDF](/static/teaching/Monotone Classes.pdf)
 
